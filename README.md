@@ -150,7 +150,11 @@ Asignar la configuracion para conectarse al servidor maestro.
 
 ```sql
 CHANGE MASTER TO
-MASTER_HOST='192.168.XXX.XXX', MASTER_USER='esclavo1', MASTER_PASSWORD='1234', MASTER_LOG_FILE='mysql-bin.0000XX', MASTER_LOG_POS=XXX;
+MASTER_HOST='192.168.XXX.XXX',
+MASTER_USER='esclavo1',
+MASTER_PASSWORD='1234',
+MASTER_LOG_FILE='mysql-bin.0000XX',
+MASTER_LOG_POS=XXX;
 ```
 
 > `MASTER_HOST` escribir la **IP** del servidor esclavo. 
@@ -191,7 +195,11 @@ Asignar la configuracion para conectarse al servidor maestro.
 
 ```sql
 CHANGE MASTER TO
-MASTER_HOST='192.168.XXX.XXX', MASTER_USER='esclavo1', MASTER_PASSWORD='1234', MASTER_LOG_FILE='mysql-bin.0000XX', MASTER_LOG_POS=XXX;
+MASTER_HOST='192.168.XXX.XXX',
+MASTER_USER='esclavo1',
+MASTER_PASSWORD='1234',
+MASTER_LOG_FILE='mysql-bin.0000XX',
+MASTER_LOG_POS=XXX;
 ```
 
 > `MASTER_HOST` escribir la **IP** del servidor esclavo. 
